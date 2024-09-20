@@ -1,0 +1,8 @@
+@use "sass:color";
+@use "asset" as *;
+@use "extend" as ext;
+@use "footer" as footer;
+
+body{
+    background-color: skyblue;
+}
