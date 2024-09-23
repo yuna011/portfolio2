@@ -1,8 +1,61 @@
 @use "sass:color";
-@use "asset" as *;
+@use "asset" as ast;
 @use "extend" as ext;
-@use "footer" as footer;
 
 body{
-    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
 }
+
+.firstView{
+    display: flex;
+    justify-content: space-between;
+    mix-blend-mode: luminosity;
+    h1{
+        font-size: 12rem;
+        color: ast.$blue;
+    }
+}
+
+.profileWrap{
+    @extend %flexC;
+    gap: 6rem;
+    line-height: 2;
+    .name{
+        text-align: center;
+        :last-child{
+            font-size: 3.6rem
+        }
+    }
+}
+.itemttl{
+    @extend %itemttl;
+}
+
+.worksWrap{
+    @extend %flexC;
+    gap: 4rem;
+    flex-wrap: wrap;
+    .noname{
+            @include ext.bgc(rgba(255, 252, 220, 0.40));
+            
+        }
+    .sumeru-to{
+            @include ext.bgc(rgba(188, 205, 232, 0.40));
+        }
+    .cwc{
+            @include ext.bgc(rgba(254, 249, 207, 0.40));
+        }
+    .obt{
+            @include ext.bgc(rgba(29, 31, 76, 0.40));
+        }
+}
+
+.contactWrap{
+    .contact{
+        @extend %flexC;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+}   

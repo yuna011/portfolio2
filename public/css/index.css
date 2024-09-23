@@ -3,12 +3,23 @@ html {
   font-size: 62.5%;
 }
 
-html, body {
-  height: 100%;
+body {
+  color: #fff;
+  background: url(../../public/img/bg/bg.svg), linear-gradient(180deg, #7084A5 0%, #ABA6BE 57%, #D4B0B5 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: serif;
+  font-size: 1.4rem;
+  padding: 2rem 12rem 2rem;
 }
 
-body {
-  font-family: serif;
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 /* resset.dev • v5.0.2 */
@@ -285,6 +296,89 @@ progress {
   cursor: default;
 }
 
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 2.4rem;
+  margin: 2rem;
+}
+.nav li {
+  font-size: 1.6rem;
+}
+.nav li :hover {
+  color: #1E4062;
+}
+
+.itemttl {
+  font-size: 1.8rem;
+  border-bottom: 1px solid #fff;
+  width: fit-content;
+  margin: 4rem auto;
+}
+
+.profileWrap, .worksWrap, .contactWrap .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.firstView {
+  display: flex;
+  justify-content: space-between;
+  mix-blend-mode: luminosity;
+}
+.firstView h1 {
+  font-size: 12rem;
+  color: #1E4062;
+}
+
+.profileWrap {
+  gap: 6rem;
+  line-height: 2;
+}
+.profileWrap .name {
+  text-align: center;
+}
+.profileWrap .name :last-child {
+  font-size: 3.6rem;
+}
+
+.worksWrap {
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.worksWrap .noname {
+  width: 31rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: rgba(255, 252, 220, 0.4);
+}
+.worksWrap .sumeru-to {
+  width: 31rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: rgba(188, 205, 232, 0.4);
+}
+.worksWrap .cwc {
+  width: 31rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: rgba(254, 249, 207, 0.4);
+}
+.worksWrap .obt {
+  width: 31rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: rgba(29, 31, 76, 0.4);
+}
+
+.contactWrap .contact {
+  gap: 1rem;
+  padding-bottom: 1rem;
 }

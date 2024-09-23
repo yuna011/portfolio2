@@ -1,0 +1,14 @@
+@use "vars" as v;
+
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 2.4rem;
+    margin: 2rem;
+    li{
+        font-size: 1.6rem;
+        :hover{
+            color: v.$blue;
+        }
+    }
+}

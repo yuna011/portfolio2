@@ -2,6 +2,62 @@ doctype html
 html(lang="ja")
     head
         include _head.pug 
-        title できた！ノート
+        title portfolio
         link(rel="stylesheet", href="css/index.css")
     body
+        include _nav.pug
+        .firstView 
+            h1 portfolio
+            img(src="img/bg/moon.svg", alt="")
+
+        div 
+            h2.itemttl Profile
+            .profileWrap 
+                .name
+                    p もりお ゆうな
+                    p 森尾 優菜
+                .profile
+                    p ECCコンピュータ専門学校マルチメディア研究学科Webデザインコース26年卒業予定
+                    p フロントエンドエンジニア志望
+                    p 2004/11.10 兵庫県出身
+                    p 好きなものはボカロとゲームです
+        div         
+            h2.itemttl Works
+            .worksWrap
+                .work 
+                    img(src="img/workIcon/noname.svg", alt="「no-name」").noname
+                    .text
+                        p no-name
+                        p 1年前期/個人制作
+                        p 対応デバイス
+                .work 
+                    img(src="img/workIcon/sumeru-to.svg", alt="「no-name」").sumeru-to
+                    .text
+                        p すめる〜と
+                        p 1年後期/チーム制作
+                        p 対応デバイス
+                .work 
+                    img(src="img/workIcon/cwc.svg", alt="「no-name」").cwc
+                    .text
+                        p no-name
+                        p 1年後期/個人制作
+                        p 対応デバイス
+                .work 
+                    img(src="img/workIcon/obt.svg", alt="「no-name」").obt
+                    .text
+                        p no-name
+                        p 1年/個人制作
+                        p 対応デバイス
+
+        div
+            h2.itemttl Contact
+            .contactWrap
+                .contact
+                    <i class="fa-solid fa-phone"></i>
+                    p 070-1820-1448
+                .contact
+                    <i class="fa-solid fa-envelope"></i>
+                    p morio.yuna01@gmail.com
+                .contact 
+                    <i class="fa-brands fa-github"></i>
+                    p: a(href=" https://github.com/yuna011") github.com/yuna011
