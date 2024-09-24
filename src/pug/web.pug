@@ -3,19 +3,16 @@ html(lang="ja")
     head
         include _head.pug 
         title portfolio
-        link(rel="stylesheet", href="css/work.css")
+        link(rel="stylesheet", href="css/web.css")
     body
         include _nav.pug
 
                 
-        h2.itemttl Works
-        ul.workNav
-            li: a(href="") #Webサイト・アプリ
-            li: a(href="") #グラフィック
-            li: a(href="") #動画 
+        h2.itemttl Web
+        include _workNav.pug
 
-        .worksWrap
-            a(href="https://click.ecc.ac.jp/ecc/ymorio/%e3%80%8cno-name%e3%80%8d/").work 
+        .webWrap
+            a(href="noname.html").work 
                 img(src="img/workIcon/noname.svg", alt="「no-name」").noname
                 .text
                     p no-name

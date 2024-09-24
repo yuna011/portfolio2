@@ -16,6 +16,7 @@ body {
 a {
   color: #fff;
   text-decoration: none;
+  pointer-events: all;
 }
 
 li {
@@ -316,7 +317,7 @@ progress {
   margin: 4rem auto;
 }
 
-.workNav, .worksWrap {
+.workNav, .webWrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,46 +331,46 @@ progress {
   color: #1E4062;
 }
 
-.worksWrap {
+.webWrap {
   gap: 4rem;
   flex-wrap: wrap;
 }
-.worksWrap .noname {
+.webWrap .noname {
   width: 31rem;
   height: 25rem;
   border-radius: 10px;
   background-color: rgba(255, 252, 220, 0.4);
   padding: 2rem;
 }
-.worksWrap .sumeru-to {
+.webWrap .sumeru-to {
   width: 31rem;
   height: 25rem;
   border-radius: 10px;
   background-color: rgba(188, 205, 232, 0.4);
   padding: 2rem;
 }
-.worksWrap .cwc {
+.webWrap .cwc {
   width: 31rem;
   height: 25rem;
   border-radius: 10px;
   background-color: rgba(254, 249, 207, 0.4);
   padding: 2rem;
 }
-.worksWrap .obt {
+.webWrap .obt {
   width: 31rem;
   height: 25rem;
   border-radius: 10px;
   background-color: rgba(29, 31, 76, 0.4);
   padding: 2rem;
 }
-.worksWrap .rekiteku {
+.webWrap .rekiteku {
   width: 31rem;
   height: 25rem;
   border-radius: 10px;
   background-color: rgba(129, 65, 65, 0.4);
   padding: 2rem;
 }
-.worksWrap .dekita {
+.webWrap .dekita {
   width: 31rem;
   height: 25rem;
   border-radius: 10px;

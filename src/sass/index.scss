@@ -38,17 +38,17 @@ body{
     gap: 4rem;
     flex-wrap: wrap;
     .noname{
-            @include ext.bgc(rgba(255, 252, 220, 0.40));
+            @include ext.workBg(rgba(255, 252, 220, 0.40));
             
         }
     .sumeru-to{
-            @include ext.bgc(rgba(188, 205, 232, 0.40));
+            @include ext.workBg(rgba(188, 205, 232, 0.40));
         }
     .cwc{
-            @include ext.bgc(rgba(254, 249, 207, 0.40));
+            @include ext.workBg(rgba(254, 249, 207, 0.40));
         }
     .obt{
-            @include ext.bgc(rgba(29, 31, 76, 0.40));
+            @include ext.workBg(rgba(29, 31, 76, 0.40));
         }
 }
 

@@ -1,0 +1,16 @@
+@use "sass:color";
+@use "asset" as ast;
+@use "extend" as ext;
+
+.itemttl{
+    @extend %itemttl;
+}
+
+.workWrap{
+    img{
+        width: 50%;;
+    }
+    @extend %flexC;
+    align-items: flex-start;
+    gap: 4rem;
+}

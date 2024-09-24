@@ -14,9 +14,10 @@
     align-items: center;
 }
 
-@mixin bgc($color: #fff){
+@mixin workBg($color: #fff){
     width: 31rem;
     height: 25rem;
     border-radius: 10px;
     background-color: $color;
+    padding: 2rem;
 }

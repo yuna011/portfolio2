@@ -16,6 +16,7 @@ body {
 a {
   color: #fff;
   text-decoration: none;
+  pointer-events: all;
 }
 
 li {
@@ -316,63 +317,16 @@ progress {
   margin: 4rem auto;
 }
 
-.workNav, .worksWrap {
+.workWrap {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.workNav {
-  gap: 2rem;
-  margin-bottom: 4rem;
-}
-.workNav :hover {
-  color: #1E4062;
-}
-
-.worksWrap {
+.workWrap {
+  align-items: flex-start;
   gap: 4rem;
-  flex-wrap: wrap;
 }
-.worksWrap .noname {
-  width: 31rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: rgba(255, 252, 220, 0.4);
-  padding: 2rem;
-}
-.worksWrap .sumeru-to {
-  width: 31rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: rgba(188, 205, 232, 0.4);
-  padding: 2rem;
-}
-.worksWrap .cwc {
-  width: 31rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: rgba(254, 249, 207, 0.4);
-  padding: 2rem;
-}
-.worksWrap .obt {
-  width: 31rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: rgba(29, 31, 76, 0.4);
-  padding: 2rem;
-}
-.worksWrap .rekiteku {
-  width: 31rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: rgba(129, 65, 65, 0.4);
-  padding: 2rem;
-}
-.worksWrap .dekita {
-  width: 31rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: rgba(142, 172, 202, 0.4);
-  padding: 2rem;
+.workWrap img {
+  width: 50%;
 }
