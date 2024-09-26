@@ -19,6 +19,7 @@
     @extend %flexC;
     gap: 4rem;
     flex-wrap: wrap;
+
     .noname{
             @include ext.workBg(rgba(255, 252, 220, 0.40));
         }
@@ -36,5 +37,48 @@
         }
     .dekita{
             @include ext.workBg(rgba(142, 172, 202, 0.40));
+        }
+    .nameCard{
+            @include ext.workBg(rgba(15, 18, 43, 0.4));
+            img{
+                width: 50%;
+            }
+        }
+    .candle{
+            @include ext.workBg(rgba(136, 77, 66,  0.4));
+            img{
+                width: 45%;
+            }
+        }
+    .dekitaG{
+            @include ext.workBg(rgba(142, 172, 202, 0.40));
+            img{
+                width: 45%;
+            }
+        }
+    .nonameG{
+            @include ext.workBg(rgba(255, 252, 220, 0.40));
+            img{
+                width: 90%;
+            }
+        }
+    .wallpaper{
+        @include ext.workBg(rgba(241, 241, 241, 0.4));
+        img{
+            width: 100%;
+        }
+        }
+    .wallpaper3{
+        @include ext.workBg(rgba(25,38,75, 0.4));
+        img{
+            width: 45%;
+        }
+        }
+    
+    .gma{
+        @include ext.workBg(rgba(59, 152, 191, 0.4));
+        img{
+            width: 45%;
+        }
         }
 }

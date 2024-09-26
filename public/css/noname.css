@@ -323,6 +323,10 @@ progress {
   align-items: center;
 }
 
+body {
+  height: 100vh;
+}
+
 .workWrap {
   align-items: flex-start;
   gap: 4rem;

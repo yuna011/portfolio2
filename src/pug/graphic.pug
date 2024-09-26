@@ -2,10 +2,57 @@ html(lang="ja")
     head
         include _head.pug 
         title portfolio
-        link(rel="stylesheet", href="css/work.css")
+        link(rel="stylesheet", href="css/web.css")
     body
         include _nav.pug
 
                 
         h2.itemttl Graphic
         include _workNav.pug
+
+        .webWrap
+            a(href="nameCard.html").nameCard
+                img(src="img/graphic/nameCard.svg", alt="名刺")
+                .text
+                    p 名刺
+                    p 1年~
+            a(href="").nonameG 
+                img(src="img/graphic/noname.svg", alt="noname")
+                .text
+                    p 「no-name」
+                    p 1年前期
+            a(href="candle").candle 
+                img(src="img/graphic/candle.svg", alt="中崎町キャンドルナイト")
+                .text
+                    p 中崎町キャンドルナイト
+                    p 1年後期
+            a(href="candle").dekitaG 
+                img(src="img/graphic/dekita.svg", alt="できた！ノート")
+                .text
+                    p できたノート
+                    p 2年前期
+            a(href="candle").wallpaper
+                img(src="img/graphic/wallpaper.jpg", alt="中崎町キャンドルナイト")
+                .text
+                    p 壁紙
+                    p 1年前期
+            a(href="candle").wallpaper 
+                img(src="img/graphic/wallpaper2.jpg", alt="")
+                .text
+                    p 世界観
+                    p 1年後期
+            a(href="candle").wallpaper3 
+                img(src="img/graphic/wallpaper3.jpg", alt="")
+                .text
+                    p 世界観2
+                    p 1年後期
+            a(href="candle").wallpaper 
+                img(src="img/graphic/wallpaper4.jpg", alt="")
+                .text
+                    p キャラ紹介
+                    p 1年後期
+            a(href="")
+                img(src="img/graphic/goodmorningAll.svg", alt="授業外で作成した作品").gma
+                .text
+                    p #授業外で作成した作品
+                    p #1年~

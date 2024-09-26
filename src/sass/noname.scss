@@ -2,6 +2,10 @@
 @use "asset" as ast;
 @use "extend" as ext;
 
+body{
+    height: 100vh;
+}
+
 .itemttl{
     @extend %itemttl;
 }

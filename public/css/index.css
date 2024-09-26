@@ -355,32 +355,36 @@ body {
   flex-wrap: wrap;
 }
 .worksWrap .noname {
-  width: 31rem;
-  height: 25rem;
+  width: 44rem;
+  height: 33rem;
   border-radius: 10px;
   background-color: rgba(255, 252, 220, 0.4);
   padding: 2rem;
+  text-align: center;
 }
 .worksWrap .sumeru-to {
-  width: 31rem;
-  height: 25rem;
+  width: 44rem;
+  height: 33rem;
   border-radius: 10px;
   background-color: rgba(188, 205, 232, 0.4);
   padding: 2rem;
+  text-align: center;
 }
 .worksWrap .cwc {
-  width: 31rem;
-  height: 25rem;
+  width: 44rem;
+  height: 33rem;
   border-radius: 10px;
   background-color: rgba(254, 249, 207, 0.4);
   padding: 2rem;
+  text-align: center;
 }
 .worksWrap .obt {
-  width: 31rem;
-  height: 25rem;
+  width: 44rem;
+  height: 33rem;
   border-radius: 10px;
   background-color: rgba(29, 31, 76, 0.4);
   padding: 2rem;
+  text-align: center;
 }
 
 .contactWrap .contact {
