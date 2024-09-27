@@ -317,10 +317,17 @@ progress {
   margin: 4rem auto;
 }
 
-.workNav, .webWrap {
+.videoWrap, .workNav, .webWrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4rem;
+}
+
+.videoWrap video {
+  width: 44rem;
+  height: 33rem;
+  border-radius: 5px;
 }
 
 .workNav {
@@ -332,7 +339,6 @@ progress {
 }
 
 .webWrap {
-  gap: 4rem;
   flex-wrap: wrap;
 }
 .webWrap .noname {
@@ -405,17 +411,6 @@ progress {
 .webWrap .candle img {
   width: 45%;
 }
-.webWrap .dekitaG {
-  width: 44rem;
-  height: 33rem;
-  border-radius: 10px;
-  background-color: rgba(142, 172, 202, 0.4);
-  padding: 2rem;
-  text-align: center;
-}
-.webWrap .dekitaG img {
-  width: 45%;
-}
 .webWrap .nonameG {
   width: 44rem;
   height: 33rem;
@@ -448,6 +443,17 @@ progress {
 }
 .webWrap .wallpaper3 img {
   width: 45%;
+}
+.webWrap .wallpaper4 {
+  width: 44rem;
+  height: 33rem;
+  border-radius: 10px;
+  background-color: rgba(6, 7, 28, 0.4);
+  padding: 2rem;
+  text-align: center;
+}
+.webWrap .wallpaper4 img {
+  width: 90%;
 }
 .webWrap .gma {
   width: 44rem;

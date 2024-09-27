@@ -2,10 +2,15 @@ html(lang="ja")
     head
         include _head.pug 
         title portfolio
-        link(rel="stylesheet", href="css/work.css")
+        link(rel="stylesheet", href="css/web.css")
     body
         include _nav.pug
 
                 
         h2.itemttl Video
         include _workNav.pug
+
+        .videoWrap
+            video(src="img/video/darekanoutade.mp4", controls) 
+            video(src="img/video/hanatava.mov", controls)
+            video(src="img/video/yu-enme-.mp4", controls) 

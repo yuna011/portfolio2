@@ -6,6 +6,14 @@
     @extend %itemttl;
 }
 
+.videoWrap{
+    @extend %flexC;
+    video{
+        width: 44rem;
+        height: 33rem;
+        border-radius: 5px;
+    }
+}
 .workNav{
     @extend %flexC;
     gap: 2rem;
@@ -17,7 +25,6 @@
 
 .webWrap{
     @extend %flexC;
-    gap: 4rem;
     flex-wrap: wrap;
 
     .noname{
@@ -50,12 +57,6 @@
                 width: 45%;
             }
         }
-    .dekitaG{
-            @include ext.workBg(rgba(142, 172, 202, 0.40));
-            img{
-                width: 45%;
-            }
-        }
     .nonameG{
             @include ext.workBg(rgba(255, 252, 220, 0.40));
             img{
@@ -72,6 +73,12 @@
         @include ext.workBg(rgba(25,38,75, 0.4));
         img{
             width: 45%;
+        }
+        }
+    .wallpaper4{
+        @include ext.workBg(rgba(6,7,28, 0.4));
+        img{
+            width: 90%;
         }
         }
     

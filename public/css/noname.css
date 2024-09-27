@@ -321,6 +321,7 @@ progress {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4rem;
 }
 
 body {
@@ -329,7 +330,6 @@ body {
 
 .workWrap {
   align-items: flex-start;
-  gap: 4rem;
 }
 .workWrap img {
   width: 50%;

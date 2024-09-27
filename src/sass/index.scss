@@ -35,7 +35,6 @@ body{
 
 .worksWrap{
     @extend %flexC;
-    gap: 4rem;
     flex-wrap: wrap;
     .noname{
             @include ext.workBg(rgba(255, 252, 220, 0.40));

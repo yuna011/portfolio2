@@ -1,0 +1,31 @@
+@use "sass:color";
+@use "asset" as ast;
+@use "extend" as ext;
+
+.itemttl{
+    @extend %itemttl;
+}
+.workNav{
+    @extend %flexC;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    :hover{
+        color: ast.$blue;
+    }
+}
+
+
+
+.flyerWrap{
+    @extend %flexC;
+    flex-wrap: wrap;  
+    div{
+        width: 20%;
+        img{
+            width: 100%;
+        }
+    }
+    p{
+        text-wrap: nowrap;
+    }
+}

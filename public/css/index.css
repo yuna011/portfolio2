@@ -321,6 +321,7 @@ progress {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4rem;
 }
 
 body {
@@ -351,7 +352,6 @@ body {
 }
 
 .worksWrap {
-  gap: 4rem;
   flex-wrap: wrap;
 }
 .worksWrap .noname {
