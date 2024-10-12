@@ -57,4 +57,19 @@ body{
         gap: 1rem;
         padding-bottom: 1rem;
     }
-}   
+}
+.link{
+    width: fit-content;
+    @extend %flexC;
+    gap: 1rem;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.6px solid #fff;
+    i{
+        transform: rotate(180deg);
+    }
+    :hover{
+        color: ast.$blue;
+    }
+} 

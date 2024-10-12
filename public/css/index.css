@@ -317,7 +317,7 @@ progress {
   margin: 4rem auto;
 }
 
-.profileWrap, .worksWrap, .contactWrap .contact {
+.profileWrap, .worksWrap, .contactWrap .contact, .link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,4 +390,19 @@ body {
 .contactWrap .contact {
   gap: 1rem;
   padding-bottom: 1rem;
+}
+
+.link {
+  width: fit-content;
+  gap: 1rem;
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1.6px solid #fff;
+}
+.link i {
+  transform: rotate(180deg);
+}
+.link :hover {
+  color: #1E4062;
 }

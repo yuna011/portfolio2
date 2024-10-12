@@ -333,4 +333,26 @@ body {
 }
 .workWrap img {
   width: 50%;
+  border-radius: 20px;
+}
+.workWrap h2 {
+  padding: 2rem 0;
+}
+
+.workDetail {
+  padding-top: 4rem;
+}
+.workDetail ul {
+  display: flex;
+  gap: 2rem;
+  line-height: 3rem;
+}
+
+.workLink {
+  width: fit-content;
+  margin-top: 4rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-size: 1.6rem;
 }
