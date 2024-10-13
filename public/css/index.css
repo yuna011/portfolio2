@@ -298,10 +298,10 @@ progress {
 }
 
 .nav {
-  display: flex;
-  justify-content: end;
-  gap: 2.4rem;
+  position: fixed;
   margin: 2rem;
+  display: flex;
+  gap: 2.4rem;
 }
 .nav li {
   font-size: 1.6rem;
@@ -317,13 +317,6 @@ progress {
   margin: 4rem auto;
 }
 
-.profileWrap, .worksWrap, .contactWrap .contact, .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -332,17 +325,20 @@ body {
 
 .firstView {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  align-items: start;
+  margin: 24rem 5rem 0;
   mix-blend-mode: luminosity;
-}
-.firstView h1 {
-  font-size: 12rem;
-  color: #1E4062;
 }
 
 .profileWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 6rem;
-  line-height: 2;
+  line-height: 3rem;
 }
 .profileWrap .name {
   text-align: center;
@@ -352,6 +348,10 @@ body {
 }
 
 .worksWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
   flex-wrap: wrap;
 }
 .worksWrap .noname {
@@ -370,11 +370,11 @@ body {
   padding: 2rem;
   text-align: center;
 }
-.worksWrap .cwc {
+.worksWrap .dekita {
   width: 44rem;
   height: 33rem;
   border-radius: 10px;
-  background-color: rgba(254, 249, 207, 0.4);
+  background-color: rgba(142, 172, 202, 0.4);
   padding: 2rem;
   text-align: center;
 }
@@ -387,15 +387,45 @@ body {
   text-align: center;
 }
 
+.worksWrap .work {
+  position: relative;
+}
+.worksWrap .work img {
+  display: block;
+}
+.worksWrap .work .text {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  color: #fff;
+  line-height: 4rem;
+  border-radius: 10px;
+  background-color: rgba(58, 57, 57, 0.7);
+}
+.worksWrap .work:hover .text {
+  display: block;
+}
+
 .contactWrap .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   padding-bottom: 1rem;
 }
 
 .link {
-  width: fit-content;
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
   float: right;
+  margin-top: 6rem;
   padding: 5px;
   border-radius: 5px;
   border: 1.6px solid #fff;

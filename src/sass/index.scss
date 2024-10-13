@@ -9,19 +9,16 @@ body{
 }
 
 .firstView{
-    display: flex;
-    justify-content: space-between;
+    @include ext.flex(center, 6rem);
+    align-items:start;
+    margin: 24rem 5rem 0;
     mix-blend-mode: luminosity;
-    h1{
-        font-size: 12rem;
-        color: ast.$blue;
-    }
+    
 }
 
 .profileWrap{
-    @extend %flexC;
-    gap: 6rem;
-    line-height: 2;
+    @include ext.flex(center, 6rem);
+    line-height: 3rem;
     .name{
         text-align: center;
         :last-child{
@@ -34,7 +31,7 @@ body{
 }
 
 .worksWrap{
-    @extend %flexC;
+    @include ext.flex(center, 6rem);
     flex-wrap: wrap;
     .noname{
             @include ext.workBg(rgba(255, 252, 220, 0.40));
@@ -43,29 +40,55 @@ body{
     .sumeru-to{
             @include ext.workBg(rgba(188, 205, 232, 0.40));
         }
-    .cwc{
-            @include ext.workBg(rgba(254, 249, 207, 0.40));
-        }
+    .dekita{
+        @include ext.workBg(rgba(142, 172, 202, 0.40));
+    }
     .obt{
             @include ext.workBg(rgba(29, 31, 76, 0.40));
         }
 }
 
+.worksWrap {
+        .work {
+            position: relative;
+            img{
+                display: block;
+            }
+        .text {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 2rem;
+            color: ast.$white;
+            line-height: 4rem;
+            border-radius: 10px;
+            background-color: rgba(58, 57, 57, 0.7);
+            h3{
+            }
+        }
+        &:hover .text {
+            display: block;
+        }
+        }
+    }
+
 .contactWrap{
     .contact{
-        @extend %flexC;
-        gap: 1rem;
+        @include ext.flex(center, 1rem);
         padding-bottom: 1rem;
     }
 }
 .link{
-    width: fit-content;
-    @extend %flexC;
-    gap: 1rem;
+    @include ext.flex(center, 5px);
     float: right;
+    margin-top: 6rem;
     padding: 5px;
     border-radius: 5px;
-    border: 1.6px solid #fff;
+    border: 1.6px solid ast.$white;
     i{
         transform: rotate(180deg);
     }

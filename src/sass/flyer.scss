@@ -6,18 +6,15 @@
     @extend %itemttl;
 }
 .workNav{
-    @extend %flexC;
-    gap: 2rem;
+    @include ext.flex(center, 2rem);
     margin-bottom: 4rem;
     :hover{
         color: ast.$blue;
     }
 }
 
-
-
 .flyerWrap{
-    @extend %flexC;
+    @include ext.flex(center, 6rem);
     flex-wrap: wrap;  
     div{
         width: 20%;

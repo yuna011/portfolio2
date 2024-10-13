@@ -7,7 +7,7 @@
 }
 
 .videoWrap{
-    @extend %flexC;
+    @include ext.flex(center, 6rem);
     video{
         width: 44rem;
         height: 33rem;
@@ -15,8 +15,7 @@
     }
 }
 .workNav{
-    @extend %flexC;
-    gap: 2rem;
+    @include ext.flex(center, 2rem);
     margin-bottom: 4rem;
     :hover{
         color: ast.$blue;
@@ -24,9 +23,8 @@
 }
 
 .webWrap{
-    @extend %flexC;
+    @include ext.flex(center, 6rem);
     flex-wrap: wrap;
-
     .noname{
             @include ext.workBg(rgba(255, 252, 220, 0.40));
         }

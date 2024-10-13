@@ -1,8 +1,10 @@
+@use "vars" as v;
+
 html{
     font-size: 62.5%;
     }
 body{
-    color: #fff;
+    color: v.$white;
     background: url(../../public/img/bg/bg.svg) , linear-gradient(180deg, #7084A5 0%, #ABA6BE 57%, #D4B0B5 100%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +14,7 @@ body{
 }
 
 a{
-    color: #fff;
+    color: v.$white;
     text-decoration: none;
     pointer-events: all;
 }

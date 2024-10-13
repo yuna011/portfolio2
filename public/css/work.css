@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  color: #fff;
+  color: ast.$white;
   background: url(../../public/img/bg/bg.svg), linear-gradient(180deg, #7084A5 0%, #ABA6BE 57%, #D4B0B5 100%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: ast.$white;
   text-decoration: none;
 }
 
@@ -311,7 +311,7 @@ progress {
 
 .itemttl {
   font-size: 1.8rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid ast.$white;
   width: fit-content;
   margin: 4rem auto;
 }

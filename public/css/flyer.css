@@ -298,10 +298,10 @@ progress {
 }
 
 .nav {
-  display: flex;
-  justify-content: end;
-  gap: 2.4rem;
+  position: fixed;
   margin: 2rem;
+  display: flex;
+  gap: 2.4rem;
 }
 .nav li {
   font-size: 1.6rem;
@@ -317,14 +317,10 @@ progress {
   margin: 4rem auto;
 }
 
-.workNav, .flyerWrap {
+.workNav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-}
-
-.workNav {
   gap: 2rem;
   margin-bottom: 4rem;
 }
@@ -333,6 +329,10 @@ progress {
 }
 
 .flyerWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
   flex-wrap: wrap;
 }
 .flyerWrap div {

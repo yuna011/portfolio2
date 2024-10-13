@@ -298,10 +298,10 @@ progress {
 }
 
 .nav {
-  display: flex;
-  justify-content: end;
-  gap: 2.4rem;
+  position: fixed;
   margin: 2rem;
+  display: flex;
+  gap: 2.4rem;
 }
 .nav li {
   font-size: 1.6rem;
@@ -310,26 +310,17 @@ progress {
   color: #1E4062;
 }
 
-.itemttl {
-  font-size: 1.8rem;
-  border-bottom: 1px solid #fff;
-  width: fit-content;
-  margin: 4rem auto;
+body {
+  height: 100vh;
 }
 
 .workWrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-}
-
-body {
-  height: 100vh;
-}
-
-.workWrap {
+  gap: 6rem;
   align-items: flex-start;
+  margin-top: 15rem;
 }
 .workWrap img {
   width: 50%;
@@ -349,10 +340,19 @@ body {
 }
 
 .workLink {
-  width: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
   margin-top: 4rem;
-  padding: 5px;
+}
+.workLink div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
   border-radius: 5px;
+  padding: 5px;
   border: 1px solid #fff;
   font-size: 1.6rem;
 }

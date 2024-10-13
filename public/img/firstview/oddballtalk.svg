@@ -12,7 +12,7 @@
       }
 
       .cls-2, .cls-3, .cls-4 {
-        stroke: #fff;
+        stroke: ast.$white;
       }
 
       .cls-5 {
@@ -156,7 +156,7 @@
       }
 
       .cls-40 {
-        fill: #fff;
+        fill: ast.$white;
       }
 
       .cls-3 {

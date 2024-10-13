@@ -3,20 +3,12 @@
 
 %itemttl{
     font-size: 1.8rem;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid ast.$white;
     width: fit-content;
     margin: 4rem auto;
 }
 
-%flexC{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-
-}
-
-@mixin workBg($color: #fff){
+@mixin workBg($color: ast.$white){
     width: 44rem;
     height: 33rem;
     border-radius: 10px;
@@ -24,3 +16,10 @@
     padding: 2rem;
     text-align: center;
     }
+
+@mixin flex($justify: center, $gap: 4rem){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    gap: $gap;
+}

@@ -27,7 +27,7 @@
       }
 
       .cls-7 {
-        fill: #fff;
+        fill: ast.$white;
       }
 
       .cls-8 {
@@ -42,7 +42,7 @@
       <rect class="cls-1" x="0" y="0" width="515.91" height="728.5"/>
     </clipPath>
     <filter id="luminosity-noclip" x="214.37" y="309.6" width="184.8" height="173.52" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
-      <feFlood flood-color="#fff" result="bg"/>
+      <feFlood flood-color="ast.$white" result="bg"/>
       <feBlend in="SourceGraphic" in2="bg"/>
     </filter>
     <mask id="mask" x="214.37" y="309.6" width="184.8" height="173.52" maskUnits="userSpaceOnUse">
@@ -801,7 +801,7 @@
       </g>
     </mask>
     <filter id="luminosity-noclip-2" x="132.29" y="238.8" width="222.27" height="180.96" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
-      <feFlood flood-color="#fff" result="bg"/>
+      <feFlood flood-color="ast.$white" result="bg"/>
       <feBlend in="SourceGraphic" in2="bg"/>
     </filter>
     <mask id="mask-1" x="132.29" y="238.8" width="222.27" height="180.96" maskUnits="userSpaceOnUse">
