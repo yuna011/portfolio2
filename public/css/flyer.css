@@ -18,6 +18,9 @@ a {
   text-decoration: none;
   pointer-events: all;
 }
+a :visited {
+  color: #fff;
+}
 
 li {
   list-style: none;
